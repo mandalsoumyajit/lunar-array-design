@@ -1,0 +1,224 @@
+{
+  "checks": {
+    "max_boundary_ratio_error": 1.1102230246251565e-16,
+    "max_pair_sum_beam_error": 1.1102230246251565e-16,
+    "connected_tree_edge_count": true,
+    "visibility_analytic_phase": true
+  },
+  "status": "Passed sampled-model checks; no hardware or continuous-band certification",
+  "receiver_sensitivity": [
+    {
+      "case": "nominal",
+      "capacitance_pf": 3,
+      "en_nv": 0.7,
+      "in_pa": 0.1,
+      "ground_k": "",
+      "worst_ratio": 0.12199601929511854,
+      "limiting_frequency_mhz": 20
+    },
+    {
+      "case": "joint_plus_5_percent",
+      "capacitance_pf": 3.1500000000000004,
+      "en_nv": 0.735,
+      "in_pa": 0.10500000000000001,
+      "ground_k": "",
+      "worst_ratio": 0.13398701969622281,
+      "limiting_frequency_mhz": 20
+    },
+    {
+      "case": "joint_plus_10_percent",
+      "capacitance_pf": 3.3000000000000003,
+      "en_nv": 0.77,
+      "in_pa": 0.11000000000000001,
+      "ground_k": "",
+      "worst_ratio": 0.14656644438039237,
+      "limiting_frequency_mhz": 20
+    },
+    {
+      "case": "joint_plus_20_percent",
+      "capacitance_pf": 3.5999999999999996,
+      "en_nv": 0.84,
+      "in_pa": 0.12,
+      "ground_k": "",
+      "worst_ratio": 0.17352277956553086,
+      "limiting_frequency_mhz": 20
+    },
+    {
+      "case": "ground_term_200K",
+      "capacitance_pf": 3,
+      "en_nv": 0.7,
+      "in_pa": 0.1,
+      "ground_k": 200,
+      "worst_ratio": 0.31010590287527745,
+      "limiting_frequency_mhz": 46,
+      "total_with_receiver": 0.36248982054853696,
+      "ground_by_frequency": "0.029;0.033;0.125;0.097;0.124;0.197;0.219;0.295;0.310"
+    },
+    {
+      "case": "ground_term_250K",
+      "capacitance_pf": 3,
+      "en_nv": 0.7,
+      "in_pa": 0.1,
+      "ground_k": 250,
+      "worst_ratio": 0.38763237859409644,
+      "limiting_frequency_mhz": 46,
+      "total_with_receiver": 0.44001629626735655,
+      "ground_by_frequency": "0.036;0.042;0.157;0.121;0.154;0.247;0.273;0.369;0.388"
+    },
+    {
+      "case": "ground_term_260K",
+      "capacitance_pf": 3,
+      "en_nv": 0.7,
+      "in_pa": 0.1,
+      "ground_k": 260,
+      "worst_ratio": 0.4031376737378606,
+      "limiting_frequency_mhz": 46,
+      "total_with_receiver": 0.4555215914111203,
+      "ground_by_frequency": "0.037;0.043;0.163;0.126;0.161;0.257;0.284;0.384;0.403"
+    }
+  ],
+  "priority_samples": [
+    14,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    46
+  ],
+  "visibility": [
+    {
+      "theta_deg": 30,
+      "phi_deg": 60,
+      "case": "clock",
+      "nominal_visibility_abs_v2_hz": 2.967420159741929e-20,
+      "amplitude_change_percent": -2.220446049250313e-14,
+      "phase_change_deg": 0.8279999999999966
+    },
+    {
+      "theta_deg": 30,
+      "phi_deg": 60,
+      "case": "survey",
+      "nominal_visibility_abs_v2_hz": 2.967420159741929e-20,
+      "amplitude_change_percent": -2.220446049250313e-14,
+      "phase_change_deg": -0.13809553541203606
+    },
+    {
+      "theta_deg": 30,
+      "phi_deg": 60,
+      "case": "clock_and_survey",
+      "nominal_visibility_abs_v2_hz": 2.967420159741929e-20,
+      "amplitude_change_percent": -2.220446049250313e-14,
+      "phase_change_deg": 0.6899044645879646
+    },
+    {
+      "theta_deg": 30,
+      "phi_deg": 60,
+      "case": "load_only",
+      "nominal_visibility_abs_v2_hz": 2.967420159741929e-20,
+      "amplitude_change_percent": -7.825645284687299,
+      "phase_change_deg": -1.7409578044380354
+    },
+    {
+      "theta_deg": 30,
+      "phi_deg": 60,
+      "case": "combined",
+      "nominal_visibility_abs_v2_hz": 2.967420159741929e-20,
+      "amplitude_change_percent": -7.825645284687299,
+      "phase_change_deg": -1.0510533398500737
+    },
+    {
+      "theta_deg": 60,
+      "phi_deg": 0,
+      "case": "clock",
+      "nominal_visibility_abs_v2_hz": 1.0151926831159963e-21,
+      "amplitude_change_percent": -2.220446049250313e-14,
+      "phase_change_deg": 0.8280000000000104
+    },
+    {
+      "theta_deg": 60,
+      "phi_deg": 0,
+      "case": "survey",
+      "nominal_visibility_abs_v2_hz": 1.0151926831159963e-21,
+      "amplitude_change_percent": 0.0,
+      "phase_change_deg": -0.4783769672641345
+    },
+    {
+      "theta_deg": 60,
+      "phi_deg": 0,
+      "case": "clock_and_survey",
+      "nominal_visibility_abs_v2_hz": 1.0151926831159963e-21,
+      "amplitude_change_percent": -2.220446049250313e-14,
+      "phase_change_deg": 0.34962303273586615
+    },
+    {
+      "theta_deg": 60,
+      "phi_deg": 0,
+      "case": "load_only",
+      "nominal_visibility_abs_v2_hz": 1.0151926831159963e-21,
+      "amplitude_change_percent": -7.43221910905969,
+      "phase_change_deg": -1.5549191276123189
+    },
+    {
+      "theta_deg": 60,
+      "phi_deg": 0,
+      "case": "combined",
+      "nominal_visibility_abs_v2_hz": 1.0151926831159963e-21,
+      "amplitude_change_percent": -7.432219109059702,
+      "phase_change_deg": -1.205296094876462
+    }
+  ],
+  "geometry_clock_recovery": {
+    "delay_ps": 49.999999999999716,
+    "translation_m": 0.009999999999999705
+  },
+  "layouts": [
+    {
+      "layout": "compact",
+      "tree_length_km": 9.566181094354336,
+      "ew_fwhm_arcmin": 52.5805563997273
+    },
+    {
+      "layout": "extended",
+      "tree_length_km": 95.66181094354337,
+      "ew_fwhm_arcmin": 5.258040447864067
+    },
+    {
+      "layout": "core_and_outer",
+      "tree_length_km": 53.49302003164241,
+      "ew_fwhm_arcmin": 14.355486801019987
+    }
+  ],
+  "inputs_sha256": {
+    "science_model\\results\\power_fix\\station\\physical_lossy_f1\\response.npz": "e5a7de994e64300d621e83e784fbc00b766b4896c6f0c72d9d1d61d866024a18",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f5\\response.npz": "154e7fc1bd2f3e51cbed6195aba7c82f5e09fbf9e2991f2b68db8956829d5931",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f10\\response.npz": "37dadda3a17c3faa871fb177f07f9dfe6b18747269286bcb64cb0aa91518a799",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f14\\response.npz": "271e8f01c42fe04f9abaa014e66db7e46c3e9fde58f71630e69774d88d16aab0",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f15\\response.npz": "3e15d68bc109491628b96be902c8670cecb6e4d48fcf195d4b22c4de18c7a40d",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f20\\response.npz": "b63ca8fdbae2d9665a67378a2dc320204c8389d956e599b98e01a5d21582d0e0",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f25\\response.npz": "2029efff993241349614ab4ecaeafd61c237c5c5b38d227ce556e062a364f290",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f30\\response.npz": "3d87cb9a1cf1276675bb566019d078eecd36cdf72d1724acbae7f13936e17142",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f35\\response.npz": "ca90b5546f186d0594d542fd5ff37f9f9afc777592e4aab03fb7bf6f0d9f76a9",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f40\\response.npz": "8eb1b7dfaf228209c747bf5d14974a542aeceb429b7d6cc51d34ffa6dd4b710c",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f45\\response.npz": "d54dcee6b7ea74e75a482c5942d2b4cfb781453623ec012d6ca82d9997b4c4bb",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f46\\response.npz": "875d9925dc886601be267546ae68ec77aaae0178bea2e1f3d264edecbb9eb5d2",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f50\\response.npz": "e6127b4d7a59a044fb0043daeaabd55b5d33f0377db248a3a60394fff40a624d",
+    "science_model\\results\\receiver_requirements\\comparison.csv": "6d3f80c19b7e9f7d65cf67042ba3b7400e70d12c467c01d1ca7a12f1d2244f78",
+    "science_model\\results\\receiver_requirements\\passive_temperature_and_correlation_screen.csv": "2687555118e12b9685deab05dbf9fce10bc40c96215f146c86bcac0d57b51201",
+    "science_model\\results\\layout_compact.csv": "b8c785e2625ff1007499fc356bfe7ccf9f55b68192da54fa60e5403bc04f804f",
+    "science_model\\results\\layout_extended.csv": "953f671a2ac35cea220a666fa98d7546c68b0ada141a45c3f0bedc16cccebccd",
+    "science_model\\results\\layout_core_and_outer.csv": "df8a842fd9e14d09df35c3334e428ee3bc0f1428ea660be93918f7193e47c4eb",
+    "science_model\\paper_design_decisions.py": "c9fe3618eafd3ad508b5dd4a022724442a7cea82363be9e587ede13cd0329063",
+    "science_model\\receiver_requirements.py": "3caddc8d50a344e3e514898c7d07fe8c67cc1029a1703e673e623f09b1bad27f",
+    "science_model\\response_bridge.py": "95c7b92429dfba8e50fab54113338ede9bc9ad92ca04ba04cac243af1ef6e349",
+    "science_model\\measurement_model.py": "cebcf6f325b50668f2d642781fa775d904dea9866af253bdf58d46e7d33b0abf",
+    "figures\\receiver_requirements.png": "f62547cb934209af6e0403eeba35b9c6994012b20f2b9cd2fb46e5fac6ca599b",
+    "figures\\array_layout_results.png": "945ebd1f56babc70d19375c9030e6ad468d45b7ce1fa3f9517db53cdc4d3d0e5",
+    "science_model\\results\\design_decisions\\receiver_boundary.csv": "d6d3c52ff6630476742bcaf4df446422b29be645174b61ffa57c0f4b3cd86106",
+    "science_model\\results\\design_decisions\\receiver_sensitivity.csv": "b1a1a66c03be3c7ca00c415973b40e75ffa3d17d01047b63af7fde56c649c3b0",
+    "science_model\\results\\design_decisions\\integrated_visibility.csv": "d61b056043b25f71e3ee9f8ced33317e8cdd324131f20a6d77665c8e001490e7",
+    "science_model\\results\\design_decisions\\layout_metrics.csv": "e3939d6de3d17d58b70314e3ad9d76f7def7eba389e0432f2182e17a6128eb02"
+  }
+}

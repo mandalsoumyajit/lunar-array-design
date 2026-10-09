@@ -1,0 +1,136 @@
+{
+  "inputs_sha256": {
+    "science_model\\results\\paper_evidence\\ares_default_global21cm.csv": "aed6604cd3fa2dfedaee3ac6a917e8effc10116bfc786f7c19d0ff71a12c0598",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f1\\response.npz": "e5a7de994e64300d621e83e784fbc00b766b4896c6f0c72d9d1d61d866024a18",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f5\\response.npz": "154e7fc1bd2f3e51cbed6195aba7c82f5e09fbf9e2991f2b68db8956829d5931",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f10\\response.npz": "37dadda3a17c3faa871fb177f07f9dfe6b18747269286bcb64cb0aa91518a799",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f14\\response.npz": "271e8f01c42fe04f9abaa014e66db7e46c3e9fde58f71630e69774d88d16aab0",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f15\\response.npz": "3e15d68bc109491628b96be902c8670cecb6e4d48fcf195d4b22c4de18c7a40d",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f20\\response.npz": "b63ca8fdbae2d9665a67378a2dc320204c8389d956e599b98e01a5d21582d0e0",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f25\\response.npz": "2029efff993241349614ab4ecaeafd61c237c5c5b38d227ce556e062a364f290",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f30\\response.npz": "3d87cb9a1cf1276675bb566019d078eecd36cdf72d1724acbae7f13936e17142",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f35\\response.npz": "ca90b5546f186d0594d542fd5ff37f9f9afc777592e4aab03fb7bf6f0d9f76a9",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f40\\response.npz": "8eb1b7dfaf228209c747bf5d14974a542aeceb429b7d6cc51d34ffa6dd4b710c",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f45\\response.npz": "d54dcee6b7ea74e75a482c5942d2b4cfb781453623ec012d6ca82d9997b4c4bb",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f46\\response.npz": "875d9925dc886601be267546ae68ec77aaae0178bea2e1f3d264edecbb9eb5d2",
+    "science_model\\results\\power_fix\\station\\physical_lossy_f50\\response.npz": "e6127b4d7a59a044fb0043daeaabd55b5d33f0377db248a3a60394fff40a624d",
+    "science_model\\results\\paper_evidence\\fiber_cross_validation_metrics.csv": "eba875080c2d74e5f50d49b88dd1b8f1000de222292181b763871e031ab0a7d8",
+    "science_model\\results\\paper_evidence\\fso_link_budget_exact.csv": "4435d2842c596eeef0c5b5d5ab43897180cb57cb2d7c45028871fdf5a837aaec",
+    "science_model\\results\\layout_compact.csv": "b8c785e2625ff1007499fc356bfe7ccf9f55b68192da54fa60e5403bc04f804f",
+    "science_model\\results\\layout_extended.csv": "953f671a2ac35cea220a666fa98d7546c68b0ada141a45c3f0bedc16cccebccd",
+    "science_model\\results\\layout_core_and_outer.csv": "df8a842fd9e14d09df35c3334e428ee3bc0f1428ea660be93918f7193e47c4eb",
+    "science_model\\results\\retrieval_corrected\\retrieval_profile_results.csv": "97b99a34b73ac9d9c716305b8a151bbb3cc65bf39621d06cea3866effbfbe767",
+    "science_model\\results\\retrieval_corrected\\stress_injections.csv": "325456a3c11e46d6f558219349b46e1ce769255cc2a1b351b2cbbe3cfa9ad5e3"
+  },
+  "plot_script_sha256": "965a89e9fb11d92e1c6e2dcf44218e952bc82320ccd51e1d8f2f362b4753bc84",
+  "summary": {
+    "ares": {
+      "global_minimum_mk": -128.98919522319534,
+      "priority_minimum_mk": -40.307499042648935,
+      "samples": 2588
+    },
+    "station": {
+      "maximum_sampled_mutual_impedance_ohm": 252.88882567936946,
+      "frequency_at_maximum_mhz": 40,
+      "response_cut_phi_deg": 0,
+      "response_norm": "sqrt(sum over both transverse incident polarizations of |h_loaded[HF X]|^2))"
+    },
+    "timing": {
+      "fiber_rms_ps": {
+        "uncorrected": [
+          141.8740584667956,
+          142.88654636741583,
+          168.65696970734749
+        ],
+        "static-temperature correction": [
+          18.308422868614027,
+          18.111036974290705,
+          24.44090734534181
+        ],
+        "lag-aware correction": [
+          4.186826400145268,
+          4.192940938466063,
+          4.240305363271316
+        ]
+      },
+      "fso_closure_matrix": [
+        [
+          1.0,
+          0.81595,
+          0.24495
+        ],
+        [
+          1.0,
+          0.9981,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "fso_rows_divergence_mrad": [
+        0.1,
+        0.25,
+        0.5,
+        1
+      ],
+      "fso_columns_range_km": [
+        0.1,
+        1,
+        10
+      ]
+    },
+    "layouts": {
+      "compact": {
+        "nodes": 128,
+        "baselines_below_10lambda": 558,
+        "maximum_baseline_km": 0.9863637623817955
+      },
+      "extended": {
+        "nodes": 128,
+        "baselines_below_10lambda": 0,
+        "maximum_baseline_km": 9.863637623817954
+      },
+      "core_and_outer": {
+        "nodes": 128,
+        "baselines_below_10lambda": 301,
+        "maximum_baseline_km": 9.559207822977688
+      }
+    },
+    "retrieval": {
+      "scenarios": [
+        "no_regolith_modes",
+        "two_modes_free",
+        "three_modes_free",
+        "three_modes_ensemble_prior"
+      ],
+      "maximum_bias_mk": [
+        18682.928903798533,
+        2.2458987209701133,
+        2.7189853508068977,
+        2.6658842614045857
+      ],
+      "conditional_sigma_mk": [
+        38.4429792333792,
+        66.91228406779219,
+        68.89425194118176,
+        66.90784583690092
+      ]
+    }
+  },
+  "scope": "Base figure bundle. The final paper build replaces layout and receiver panels with decision studies and records a consolidated final manifest.",
+  "figures_sha256": {
+    "science_brightness": "8c445ffefafa9cbd1ecdcf2874734a878c713a6aaa531a633d63ca86ecd96c31",
+    "corrected_station_response": "8507b80f10d9a651ebaec7e98976813efc9f4110ac50b4839a28647131d0a394",
+    "timing_results": "b0db10892d1c49e8d9c7e6ae7a7baf167c10ac8119dfd0c2b461e22b79c58342",
+    "array_layout_results": "e4f25161c1478cf649c31d10f3bf6527e12af7b7a8e2b453a8686dacd58ea082",
+    "calibration_results": "9bcb5418db131c51ff35cd4a7b0a1f819dff1fbe00cbee8b2ed8184b409d7bbe"
+  }
+}

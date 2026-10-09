@@ -1,0 +1,8 @@
+{
+  "original_station_input_hashes_unchanged": true,
+  "cited_keys_resolve": 17,
+  "cross_references_resolve": true,
+  "main_pdf_bytes": 534536,
+  "physical_response_validation": "not passed; explicit gate remains",
+  "retrieval_validation": "rank handling and matched-noise tests passed; deliberate mismatches fail coverage"
+}

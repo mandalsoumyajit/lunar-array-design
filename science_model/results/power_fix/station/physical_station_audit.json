@@ -1,0 +1,335 @@
+{
+  "passed": true,
+  "frequencies_mhz": [
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    40,
+    50
+  ],
+  "case_count": 22,
+  "maximum_power_error": 0.0006029234248543514,
+  "impedance_convergence_relative": {
+    "f25_fine": 8.967860334954617e-06,
+    "f50_fine": 6.428314931943394e-07,
+    "f25_mesh2": 0.0018321447137177886,
+    "f1_lossy_fine": 3.0061875268961325e-05
+  },
+  "cases": {
+    "physical_layered_f1": {
+      "frequency_hz": 1000000.0,
+      "lossy": false,
+      "power_eigenvalues": [
+        0.9999970289281509,
+        0.9999970289286981,
+        1.0000003180486574,
+        1.0000003180491512
+      ],
+      "worst_power_error": 2.971071849100504e-06,
+      "lower_farfield_vs_surface_flux_relative_error": 8.155819509785661e-07,
+      "reciprocity_relative_error": 2.4871851269096095e-18
+    },
+    "physical_lossy_f1": {
+      "frequency_hz": 1000000.0,
+      "lossy": true,
+      "power_eigenvalues": [
+        0.9998923360921892,
+        0.9998923360923075,
+        1.000602923421289,
+        1.0006029234248544
+      ],
+      "worst_power_error": 0.0006029234248543514,
+      "lower_farfield_vs_surface_flux_relative_error": null,
+      "reciprocity_relative_error": 3.706533649006842e-18
+    },
+    "physical_lossy_f1_fine": {
+      "frequency_hz": 1000000.0,
+      "lossy": true,
+      "power_eigenvalues": [
+        0.9999999999999964,
+        1.0000000000000002,
+        1.0000000000000242,
+        1.0000000000000249
+      ],
+      "worst_power_error": 2.4868995751603507e-14,
+      "lower_farfield_vs_surface_flux_relative_error": null,
+      "reciprocity_relative_error": 1.3143410664397548e-18
+    },
+    "physical_layered_f5": {
+      "frequency_hz": 5000000.0,
+      "lossy": false,
+      "power_eigenvalues": [
+        0.9999965447603482,
+        0.9999965447603567,
+        1.0000004455397966,
+        1.0000004455398253
+      ],
+      "worst_power_error": 3.45523965183947e-06,
+      "lower_farfield_vs_surface_flux_relative_error": 2.8923099575906846e-06,
+      "reciprocity_relative_error": 3.697208208840547e-18
+    },
+    "physical_lossy_f5": {
+      "frequency_hz": 5000000.0,
+      "lossy": true,
+      "power_eigenvalues": [
+        1.0000047999351973,
+        1.0000047999352,
+        1.0001286221727392,
+        1.0001286221730576
+      ],
+      "worst_power_error": 0.00012862217305764645,
+      "lower_farfield_vs_surface_flux_relative_error": null,
+      "reciprocity_relative_error": 1.3126266767665796e-18
+    },
+    "physical_layered_f10": {
+      "frequency_hz": 10000000.0,
+      "lossy": false,
+      "power_eigenvalues": [
+        0.9999957408998508,
+        0.9999957408998564,
+        1.00000064124136,
+        1.000000641241372
+      ],
+      "worst_power_error": 4.259100149228701e-06,
+      "lower_farfield_vs_surface_flux_relative_error": 7.69642001470004e-06,
+      "reciprocity_relative_error": 1.5727282586421593e-17
+    },
+    "physical_lossy_f10": {
+      "frequency_hz": 10000000.0,
+      "lossy": true,
+      "power_eigenvalues": [
+        0.9999969135086582,
+        0.9999969135088291,
+        1.0000000095984842,
+        1.0000000095984911
+      ],
+      "worst_power_error": 3.0864913418415796e-06,
+      "lower_farfield_vs_surface_flux_relative_error": null,
+      "reciprocity_relative_error": 1.066985100641963e-17
+    },
+    "physical_layered_f15": {
+      "frequency_hz": 15000000.0,
+      "lossy": false,
+      "power_eigenvalues": [
+        0.9999943161525334,
+        0.9999943161525411,
+        1.0000008413049961,
+        1.0000008413050043
+      ],
+      "worst_power_error": 5.683847466575465e-06,
+      "lower_farfield_vs_surface_flux_relative_error": 1.3677323059582349e-05,
+      "reciprocity_relative_error": 3.968015795838125e-17
+    },
+    "physical_lossy_f15": {
+      "frequency_hz": 15000000.0,
+      "lossy": true,
+      "power_eigenvalues": [
+        0.999994391840754,
+        0.9999943918408116,
+        0.9999999973491175,
+        0.9999999973491212
+      ],
+      "worst_power_error": 5.608159245995559e-06,
+      "lower_farfield_vs_surface_flux_relative_error": null,
+      "reciprocity_relative_error": 5.614080110155002e-17
+    },
+    "physical_layered_f20": {
+      "frequency_hz": 20000000.0,
+      "lossy": false,
+      "power_eigenvalues": [
+        0.9999916745479195,
+        0.9999916745479424,
+        1.0000007993892552,
+        1.0000007993892897
+      ],
+      "worst_power_error": 8.325452080515383e-06,
+      "lower_farfield_vs_surface_flux_relative_error": 1.7815466255524917e-05,
+      "reciprocity_relative_error": 2.3845902457207097e-16
+    },
+    "physical_lossy_f20": {
+      "frequency_hz": 20000000.0,
+      "lossy": true,
+      "power_eigenvalues": [
+        0.9999979563726644,
+        0.9999979563726952,
+        0.9999999997611531,
+        0.9999999997611563
+      ],
+      "worst_power_error": 2.043627335579501e-06,
+      "lower_farfield_vs_surface_flux_relative_error": null,
+      "reciprocity_relative_error": 1.00534029390771e-16
+    },
+    "physical_layered_f25": {
+      "frequency_hz": 25000000.0,
+      "lossy": false,
+      "power_eigenvalues": [
+        0.9999876500107066,
+        0.9999876500108178,
+        0.9999987313143676,
+        0.9999987313146167
+      ],
+      "worst_power_error": 1.234998929344755e-05,
+      "lower_farfield_vs_surface_flux_relative_error": 1.5693087923296655e-05,
+      "reciprocity_relative_error": 3.414993802772065e-17
+    },
+    "physical_lossy_f25": {
+      "frequency_hz": 25000000.0,
+      "lossy": true,
+      "power_eigenvalues": [
+        0.9999996236949328,
+        0.9999996236950022,
+        1.000000000083058,
+        1.000000000083063
+      ],
+      "worst_power_error": 3.763050672178636e-07,
+      "lower_farfield_vs_surface_flux_relative_error": null,
+      "reciprocity_relative_error": 6.490594670658389e-17
+    },
+    "physical_layered_f25_fine": {
+      "frequency_hz": 25000000.0,
+      "lossy": false,
+      "power_eigenvalues": [
+        0.999994737844536,
+        0.9999947378445844,
+        0.9999994554433278,
+        0.9999994554434299
+      ],
+      "worst_power_error": 5.262155464036411e-06,
+      "lower_farfield_vs_surface_flux_relative_error": 6.689248611286131e-06,
+      "reciprocity_relative_error": 7.073236039687846e-17
+    },
+    "physical_layered_f25_mesh2": {
+      "frequency_hz": 25000000.0,
+      "lossy": false,
+      "power_eigenvalues": [
+        0.9999876507720591,
+        0.999987650772108,
+        0.9999987278446394,
+        0.9999987278447344
+      ],
+      "worst_power_error": 1.2349227940910978e-05,
+      "lower_farfield_vs_surface_flux_relative_error": 1.5661493140037203e-05,
+      "reciprocity_relative_error": 1.0301891509136208e-16
+    },
+    "physical_layered_f30": {
+      "frequency_hz": 30000000.0,
+      "lossy": false,
+      "power_eigenvalues": [
+        0.9999831756719071,
+        0.999983175671987,
+        0.9999974268027516,
+        0.9999974268029537
+      ],
+      "worst_power_error": 1.6824328092912566e-05,
+      "lower_farfield_vs_surface_flux_relative_error": 1.52956210851086e-05,
+      "reciprocity_relative_error": 5.714081968743853e-17
+    },
+    "physical_lossy_f30": {
+      "frequency_hz": 30000000.0,
+      "lossy": true,
+      "power_eigenvalues": [
+        1.0000000001783074,
+        1.0000000001783103,
+        1.0000000655606638,
+        1.0000000655607233
+      ],
+      "worst_power_error": 6.556072329466645e-08,
+      "lower_farfield_vs_surface_flux_relative_error": null,
+      "reciprocity_relative_error": 1.3023509429514257e-16
+    },
+    "physical_layered_f40": {
+      "frequency_hz": 40000000.0,
+      "lossy": false,
+      "power_eigenvalues": [
+        0.9999712337159763,
+        0.9999712337160673,
+        1.0000009940299552,
+        1.0000009940299655
+      ],
+      "worst_power_error": 2.8766284023706845e-05,
+      "lower_farfield_vs_surface_flux_relative_error": 3.881836188645031e-05,
+      "reciprocity_relative_error": 1.8027723182141748e-16
+    },
+    "physical_lossy_f40": {
+      "frequency_hz": 40000000.0,
+      "lossy": true,
+      "power_eigenvalues": [
+        0.9999999873498413,
+        0.9999999873499064,
+        1.000000000472226,
+        1.0000000004722287
+      ],
+      "worst_power_error": 1.265015869833519e-08,
+      "lower_farfield_vs_surface_flux_relative_error": null,
+      "reciprocity_relative_error": 1.8418502010308701e-16
+    },
+    "physical_layered_f50": {
+      "frequency_hz": 50000000.0,
+      "lossy": false,
+      "power_eigenvalues": [
+        0.9999680930003777,
+        0.9999680930006322,
+        0.9999978983032511,
+        0.9999978983032659
+      ],
+      "worst_power_error": 3.1906999622299814e-05,
+      "lower_farfield_vs_surface_flux_relative_error": 6.484757918014477e-06,
+      "reciprocity_relative_error": 8.035157540520943e-16
+    },
+    "physical_lossy_f50": {
+      "frequency_hz": 50000000.0,
+      "lossy": true,
+      "power_eigenvalues": [
+        1.0000000022623627,
+        1.0000000022623685,
+        1.0000000390046597,
+        1.0000000390046788
+      ],
+      "worst_power_error": 3.9004678820120375e-08,
+      "lower_farfield_vs_surface_flux_relative_error": null,
+      "reciprocity_relative_error": 4.379387732396963e-16
+    },
+    "physical_layered_f50_fine": {
+      "frequency_hz": 50000000.0,
+      "lossy": false,
+      "power_eigenvalues": [
+        0.9999862767758683,
+        0.999986276775979,
+        0.9999991062827842,
+        0.9999991062827874
+      ],
+      "worst_power_error": 1.3723224131734213e-05,
+      "lower_farfield_vs_surface_flux_relative_error": 2.773707816729376e-06,
+      "reciprocity_relative_error": 3.602454517393832e-16
+    }
+  },
+  "validation_sha256": {
+    "physical_layered_f1": "5816ed1f1fc883db7188fa085c88c117dfcedd4b51eaaf947cba249eef33b60c",
+    "physical_lossy_f1": "3684b3fe9cfdbda45484028011b10bf47b29118cb1555c6b0a86e8b106ea87b6",
+    "physical_lossy_f1_fine": "ead3a8aec229026b4612e985352ebaa0773980babd45545afd56b8192c034879",
+    "physical_layered_f5": "1ff44c1156013b4550dcd2a7bfec51a1d284016b586222cdf8c14c7ec7534881",
+    "physical_lossy_f5": "213362d328276267be1b0113bf58710648787490393d5ddcd08cba71bb524c86",
+    "physical_layered_f10": "3124f92b219500f1fae9f5d7ad584af690934aeb7613ec351346c1b86deb399d",
+    "physical_lossy_f10": "7feda2f8dde0dace98d8bb0bcf4dfc145021d6d33bb688ed640ecca8a59704bb",
+    "physical_layered_f15": "d07b421032ca765a4098b8320bb5521c0fbc50fe968dc90a96d9ba5c77305998",
+    "physical_lossy_f15": "e7aac9693bc160ed10231815b9a3adeeb94efaada90450b797fb6be7790d11a5",
+    "physical_layered_f20": "9a2732e8a7361d673b5a61d79cd076a3b0b306baddac0fd07db660c6edc81261",
+    "physical_lossy_f20": "27069acc07f4072a4d14343bcbd12a2a8a1c5d80ac2862dc24a967ae0f57639a",
+    "physical_layered_f25": "e4a8f8f26ce1cad1d572b8e2f34f0b47416834bf59481dc1568ee40056c63068",
+    "physical_lossy_f25": "f91ef5646bfc65674497d3908ba6dc443d7cabb8a67bf20684f44c96bce5ba72",
+    "physical_layered_f25_fine": "834f58b78af32a59828d537d3ed293ae31c9325aacf8e64625a54a8203e8b5fc",
+    "physical_layered_f25_mesh2": "bf84c84c139d680b01fb7597d507b280ed9da9668ad8f3c1700098242cb166f0",
+    "physical_layered_f30": "13e28d4b33703b2e1ff7c6e418be75df11fccc312c0a331246556d9d9398506b",
+    "physical_lossy_f30": "33dec7b5d385a15b533c91c60626068b713c44cb1f482019d05dcbfc7a03d10c",
+    "physical_layered_f40": "d794c9293d4d8d37b129dbe2cfdebf4c7995821374c070252deb5ac70709921a",
+    "physical_lossy_f40": "f56fcaded5f5f95986e6197f0592ecb35fc7da4b25fa67cbb2d3e8c73808c72d",
+    "physical_layered_f50": "494763ed34a6f955878d4cc8aae81477a28c236ac5cad24f7a91b84675dccc84",
+    "physical_lossy_f50": "e69d553e88c0586b1df13b386734aab491468c133702a9453cf4c32ca0b3a6b0",
+    "physical_layered_f50_fine": "cb3a1063c9075aedc8b36e9afd39c22d44d77d545b926643c6afa8e5857f700c"
+  },
+  "scope": "Numerical power closure for the stated ideal PEC/feed/planar-ground model; not measured instrument performance."
+}

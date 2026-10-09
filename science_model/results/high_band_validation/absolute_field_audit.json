@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "height_m": 0.1,
+      "frequency_mhz": 100.0,
+      "maximum_upper_field_relative_error": 0.000109005893566581
+    },
+    {
+      "height_m": 0.1,
+      "frequency_mhz": 125.0,
+      "maximum_upper_field_relative_error": 0.0009024647892624137
+    },
+    {
+      "height_m": 0.1,
+      "frequency_mhz": 50.0,
+      "maximum_upper_field_relative_error": 2.3429600419256006e-05
+    },
+    {
+      "height_m": 0.1,
+      "frequency_mhz": 75.0,
+      "maximum_upper_field_relative_error": 0.0011360967977349732
+    },
+    {
+      "height_m": 0.5,
+      "frequency_mhz": 100.0,
+      "maximum_upper_field_relative_error": 0.00011105704549933538
+    },
+    {
+      "height_m": 0.5,
+      "frequency_mhz": 125.0,
+      "maximum_upper_field_relative_error": 0.002489724108804597
+    },
+    {
+      "height_m": 0.5,
+      "frequency_mhz": 50.0,
+      "maximum_upper_field_relative_error": 7.114740171654107e-05
+    },
+    {
+      "height_m": 0.5,
+      "frequency_mhz": 75.0,
+      "maximum_upper_field_relative_error": 0.001315700788953014
+    },
+    {
+      "height_m": 1.0,
+      "frequency_mhz": 100.0,
+      "maximum_upper_field_relative_error": 9.532466844549485e-05
+    },
+    {
+      "height_m": 1.0,
+      "frequency_mhz": 125.0,
+      "maximum_upper_field_relative_error": 0.0012670029315830643
+    },
+    {
+      "height_m": 1.0,
+      "frequency_mhz": 50.0,
+      "maximum_upper_field_relative_error": 2.4767287025841325e-05
+    },
+    {
+      "height_m": 1.0,
+      "frequency_mhz": 75.0,
+      "maximum_upper_field_relative_error": 0.00026589610091829814
+    }
+  ]
+}

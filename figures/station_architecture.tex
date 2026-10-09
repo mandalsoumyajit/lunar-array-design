@@ -1,0 +1,71 @@
+\begin{figure}[t]
+  \centering
+  \begin{tikzpicture}[
+    x=0.74cm,y=0.82cm,
+    stationbox/.style={draw,rounded corners=1.5pt,fill=palegray,align=center,
+      minimum width=19mm,minimum height=7mm,font=\scriptsize},
+    hubbox/.style={draw,rounded corners,fill=palegreen,align=center,
+      minimum width=27mm,minimum height=9mm,font=\scriptsize},
+    lf/.style={line width=1.5pt,nasablue},
+    hf/.style={line width=1.25pt,nasared},
+    fiber/.style={line width=1.5pt,nasablue},
+    arrow/.style={-{Latex[length=2mm]},thick,darkgray}
+  ]
+    % Lunar surface and two repeated two-level stations.
+    \fill[palegray] (-0.3,-0.06) rectangle (17.4,0.08);
+    \draw[darkgray,thick] (-0.3,0.08) -- (17.4,0.08);
+
+    \node[stationbox] (c1) at (2.6,0.55) {buffered RF\\cluster readout};
+    \draw[darkgray,thick] (2.6,0.90) -- (2.6,3.02);
+    \coordinate (fso1) at (3.55,3.80);
+    \draw[hf] (1.55,1.22) -- (3.65,1.22);
+    \draw[hf] (1.82,0.97) -- (3.38,1.47);
+    \fill[nasared] (2.6,1.22) circle (1.4pt);
+    \draw[lf] (0.95,2.55) -- (4.25,2.55);
+    \draw[lf] (1.37,2.20) -- (3.83,2.90);
+    \fill[nasablue] (2.6,2.55) circle (1.6pt);
+    \node[font=\scriptsize,align=center] at (2.6,3.35) {representative two-band station};
+
+    \node[stationbox] (c2) at (14.8,0.55) {buffered RF\\cluster readout};
+    \draw[darkgray,thick] (14.8,0.90) -- (14.8,3.02);
+    \coordinate (fso2) at (13.85,3.80);
+    \draw[hf] (13.75,1.22) -- (15.85,1.22);
+    \draw[hf] (14.02,0.97) -- (15.58,1.47);
+    \fill[nasared] (14.8,1.22) circle (1.4pt);
+    \draw[lf] (13.15,2.55) -- (16.45,2.55);
+    \draw[lf] (13.57,2.20) -- (16.03,2.90);
+    \fill[nasablue] (14.8,2.55) circle (1.6pt);
+    \node[font=\scriptsize,align=center] at (14.8,3.35) {repeat station / cluster emulator};
+
+    % Labels identify the two vertically separated crossed radiators.
+    \node[font=\scriptsize,align=right,anchor=east] (lflabel) at (0.72,2.64)
+      {elevated LF\\crossed dipole};
+    \draw[arrow] (lflabel.east) -- (1.30,2.55);
+    \node[font=\scriptsize,align=right,anchor=east] (hflabel) at (0.72,1.27)
+      {near-surface HF\\crossed dipole};
+    \draw[arrow] (hflabel.east) -- (1.48,1.22);
+
+    % Fiber is the baseline timing/data path; FSO is evaluated in parallel.
+    \node[hubbox] (hub) at (8.40,0.55) {White Rabbit timing\\data hub + correlator};
+    \draw[fiber] (c1.south) -- (2.6,-0.42) -- (7.20,-0.42) -- (hub.south west);
+    \draw[fiber] (c2.south) -- (14.8,-0.42) -- (9.60,-0.42) -- (hub.south east);
+    \node[font=\scriptsize,fill=white,inner sep=1pt] at (4.85,-0.42) {optical fiber};
+    \node[font=\scriptsize,fill=white,inner sep=1pt] at (12.25,-0.42) {optical fiber};
+    \draw[nasared,dashed,line width=1pt,-{Latex[length=1.8mm]}]
+      (fso1) to[bend left=18] node[above,font=\scriptsize,fill=white,inner sep=1pt]
+      {FSO timing option} (fso2);
+
+    % Rover-team icon for placement, cable/connector work, inspection, and survey.
+    \draw[fill=palegold,rounded corners=1pt,thick] (11.58,0.42) rectangle (12.72,0.98);
+    \draw[fill=darkgray] (11.80,0.25) circle (0.17);
+    \draw[fill=darkgray] (12.50,0.25) circle (0.17);
+    \draw[darkgray,line width=1.2pt] (12.15,0.98) -- (12.50,1.44) -- (13.15,1.12);
+    \draw[darkgray,line width=1.2pt] (13.06,1.02) -- (13.24,1.22);
+    \draw[darkgray,line width=1.2pt] (13.06,1.22) -- (13.24,1.02);
+    \node[font=\scriptsize,align=center] at (12.16,1.75) {rover team:\\deploy, connect, inspect, survey};
+    \draw[dashed,darkgray,thick,-{Latex[length=1.6mm]}] (12.88,0.18) -- (13.60,0.18);
+    \draw[dashed,darkgray,thick,-{Latex[length=1.6mm]}] (11.42,0.18) -- (10.50,0.18);
+  \end{tikzpicture}
+  \caption{Instrument architecture and ground-test interfaces. Each station carries an elevated LF and a near-surface HF crossed dipole, which provide two polarizations at two electrical lengths. The first buffer amplifier sits at each feed; the boxes represent the subsequent readout electronics, shared within a cluster. Optical fiber carries timing and data from each cluster to the hub, and the dashed free-space optical (FSO) path is tested as an alternative to routed cable. A rover team deploys, connects, inspects and surveys each station. The schematic shows the two representative stations and cluster emulators of the proposed ground test.}
+  \label{fig:architecture}
+\end{figure}

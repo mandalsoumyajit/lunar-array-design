@@ -1,0 +1,13 @@
+{
+  "original_files_checked": 10,
+  "original_files_unchanged": true,
+  "scripts_syntax_checked": [
+    "momentum_safe.py",
+    "physical_halfspace_fields.py",
+    "validate_power_fix.py",
+    "correct_station_response.py",
+    "diagnose_terminal_power.py",
+    "check_scale_invariance.py",
+    "plot_revision_evidence.py"
+  ]
+}

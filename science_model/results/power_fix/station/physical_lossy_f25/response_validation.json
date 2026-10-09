@@ -1,0 +1,11 @@
+{
+  "passed_numerical_response_checks": true,
+  "frequency_hz": 25000000.0,
+  "receive_relative_error": 4.435515935764088e-11,
+  "loaded_receive_relative_error": 3.907039607299901e-11,
+  "thermal_equilibrium_relative_error": 3.743392905474155e-07,
+  "power_validation_sha256": "7360171e6202dc9086b6e9b9cc9cd1dd35b4a23f7802c098bba9cf85dcefaa2a",
+  "response_sha256": "2029efff993241349614ab4ecaeafd61c237c5c5b38d227ce556e062a364f290",
+  "exporter_sha256": "d0605668db463675241b666589ba297efe82f3b56a62543161baf781b05acef3",
+  "scope": "Numerically checked ideal PEC station with balanced impressed feeds and planar ground. Uniform ground 100 K; illustrative 1 Mohm/35 pF, 3 nV/sqrt(Hz) receiver. No measured hardware/sensitivity validation."
+}

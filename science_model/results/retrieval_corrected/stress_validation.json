@@ -1,0 +1,102 @@
+{
+  "status": "Controlled model-mismatch stress tests; not independent EM validation",
+  "fit_script_sha256": "3807be7dc3eb67de681163e161187e4f7f153a5a18684a1e08c1f134bea3cffb",
+  "features_sha256": "4f54a19d9305990150bdb70d56827fd0800a493ebbc73e129505b00e2e7db4e4",
+  "rank_deficient_fit_rejected": true,
+  "deterministic": [
+    {
+      "case": "null",
+      "injected_amplitude_mk": 0.0,
+      "fitted_amplitude_mk": -2.0864759527354002e-07,
+      "amplitude_difference_mk": -2.0864759527354002e-07,
+      "sigma_mk": 68.89425194118176,
+      "rank": 12,
+      "residual_rms_mk": 0.0007957263017963295,
+      "interpretation": "Exact training family, no signal"
+    },
+    {
+      "case": "matched_40mK",
+      "injected_amplitude_mk": 40.0,
+      "fitted_amplitude_mk": 39.999999791906326,
+      "amplitude_difference_mk": -2.0809367423657577e-07,
+      "sigma_mk": 68.89425194118176,
+      "rank": 12,
+      "residual_rms_mk": 0.00043104842206709114,
+      "interpretation": "Exact training family"
+    },
+    {
+      "case": "foreground_fourth_order",
+      "injected_amplitude_mk": 40.0,
+      "fitted_amplitude_mk": 41.06190641881558,
+      "amplitude_difference_mk": 1.061906418815581,
+      "sigma_mk": 68.89425194118176,
+      "rank": 12,
+      "residual_rms_mk": 0.06279384593338665,
+      "interpretation": "Unmodeled smooth term with 0.1 K maximum amplitude in each channel"
+    },
+    {
+      "case": "foreground_ripple",
+      "injected_amplitude_mk": 40.0,
+      "fitted_amplitude_mk": 100.36301451978183,
+      "amplitude_difference_mk": 60.36301451978183,
+      "sigma_mk": 68.89425194118176,
+      "rank": 12,
+      "residual_rms_mk": 67.85692198546438,
+      "interpretation": "Unmodeled 0.1 K sinusoid, period 2 MHz, identical in both channels"
+    },
+    {
+      "case": "inter_anchor_response",
+      "injected_amplitude_mk": 40.0,
+      "fitted_amplitude_mk": 258.0409843743248,
+      "amplitude_difference_mk": 218.0409843743248,
+      "sigma_mk": 68.89425194118176,
+      "rank": 12,
+      "residual_rms_mk": 19.78664146892818,
+      "interpretation": "Fractional response 1e-5 sin(pi*(nu-15)/5), zero at all three EM anchors"
+    },
+    {
+      "case": "shifted_signal",
+      "injected_amplitude_mk": 40.0,
+      "fitted_amplitude_mk": 36.00472454601587,
+      "amplitude_difference_mk": -3.9952754539841275,
+      "sigma_mk": 68.89425194118176,
+      "rank": 12,
+      "residual_rms_mk": 3.349216898083233,
+      "interpretation": "True trough at 21 MHz fitted with fixed 20 MHz template; shape mismatch, not like-for-like amplitude"
+    }
+  ],
+  "monte_carlo": [
+    {
+      "case": "null",
+      "draws": 2000,
+      "empirical_std_mk": 70.20966960937014,
+      "predicted_sigma_mk": 68.89425194118176,
+      "mean_difference_mk": 1.6070132048212842,
+      "coverage_68": 0.667,
+      "coverage_95": 0.943
+    },
+    {
+      "case": "matched_40mK",
+      "draws": 2000,
+      "empirical_std_mk": 69.83465459337422,
+      "predicted_sigma_mk": 68.89425194118176,
+      "mean_difference_mk": -0.16244440944140903,
+      "coverage_68": 0.682,
+      "coverage_95": 0.9475
+    },
+    {
+      "case": "inter_anchor_response",
+      "draws": 2000,
+      "empirical_std_mk": 67.33171964419036,
+      "predicted_sigma_mk": 68.89425194118176,
+      "mean_difference_mk": 218.9674029971925,
+      "coverage_68": 0.013,
+      "coverage_95": 0.1
+    }
+  ],
+  "limitations": [
+    "Same five-profile, three-anchor training ensemble.",
+    "Uniform scalar channel noise, no correlated calibration noise.",
+    "Signal-shape mismatch amplitude is a template projection."
+  ]
+}

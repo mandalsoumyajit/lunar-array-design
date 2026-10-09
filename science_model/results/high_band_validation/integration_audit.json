@@ -1,0 +1,18 @@
+[
+  {
+    "height_m": 1,
+    "frequency_mhz": 125,
+    "quadrature_sky_fraction_change": -8.240141546211888e-06,
+    "quadrature_power_relative_change": 1.4210351608312521e-05,
+    "finite_gap_sky_fraction_change": -2.4541908441144678e-05,
+    "finite_gap_power_error": 0.0023293163742892364
+  },
+  {
+    "height_m": 0.5,
+    "frequency_mhz": 50,
+    "quadrature_sky_fraction_change": -7.893782210666167e-07,
+    "quadrature_power_relative_change": 2.90539681424562e-06,
+    "finite_gap_sky_fraction_change": -4.167511442887406e-06,
+    "finite_gap_power_error": -9.143340140704836e-05
+  }
+]

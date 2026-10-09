@@ -1,0 +1,26 @@
+{
+  "ares_default_global21cm.csv": {
+    "original_path": "external/em_archive/docs\\proposal_draft\\data\\ares_default_global21cm.csv",
+    "sha256": "aed6604cd3fa2dfedaee3ac6a917e8effc10116bfc786f7c19d0ff71a12c0598"
+  },
+  "ares_default_global21cm_metadata.json": {
+    "original_path": "external/em_archive/docs\\proposal_draft\\data\\ares_default_global21cm_metadata.json",
+    "sha256": "057ab13d0b4030eb0574e6a8f3cd2a2e29d190e801b70e08b474f0f0a99ceccb"
+  },
+  "fiber_cross_validation_metrics.csv": {
+    "original_path": "external/em_archive/output\\timing_simulations\\fiber_cross_validation_metrics.csv",
+    "sha256": "eba875080c2d74e5f50d49b88dd1b8f1000de222292181b763871e031ab0a7d8"
+  },
+  "fso_link_budget_sweep.csv": {
+    "original_path": "external/em_archive/output\\timing_simulations\\fso_link_budget_sweep.csv",
+    "sha256": "b867655ba39dd0452b1cc123da489e2f28fe8fa8b2366f9a176bf388155ac202"
+  },
+  "simulate_fiber_thermal_asymmetry.py": {
+    "original_path": "external/em_archive/timing_simulations\\simulate_fiber_thermal_asymmetry.py",
+    "sha256": "b95feb6a35f9af8fc5d28f03e36e7e805b6331b4b5ba5e96a40d39f5c87a2941"
+  },
+  "simulate_fso_link_availability.py": {
+    "original_path": "external/em_archive/timing_simulations\\simulate_fso_link_availability.py",
+    "sha256": "e5b50b10a59d6d049c19e341e54f282ecbfe2b36ee8b06db319643ab9d0dea94"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "seed": 20261009,
+  "draws": 40000,
+  "checks_passed": true,
+  "closure_dust6_point100": {
+    "0.1km_0.1mrad": 1.0,
+    "0.1km_0.25mrad": 1.0,
+    "0.1km_0.5mrad": 1.0,
+    "0.1km_1.0mrad": 1.0,
+    "1.0km_0.1mrad": 0.81595,
+    "1.0km_0.25mrad": 0.9981,
+    "1.0km_0.5mrad": 1.0,
+    "1.0km_1.0mrad": 1.0,
+    "10.0km_0.1mrad": 0.24495,
+    "10.0km_0.25mrad": 0.0,
+    "10.0km_0.5mrad": 0.0,
+    "10.0km_1.0mrad": 0.0
+  }
+}

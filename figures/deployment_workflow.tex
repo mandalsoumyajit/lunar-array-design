@@ -1,0 +1,32 @@
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[
+ node distance=4mm,
+ task/.style={draw,rounded corners,align=center,text width=26mm,
+ minimum height=12mm,font=\small,fill=palegray},
+ arrow/.style={-{Latex[length=2mm]},thick}]
+\node[task] (site) {Inspect site\\refine pose};
+\node[task,right=of site] (anchor) {Place feed\\verify anchor};
+\node[task,right=of anchor] (deploy) {Deploy radiator\\route cable};
+\node[task,right=of deploy] (connect) {Mate connector\\test continuity};
+\node[task,right=of connect,fill=palegreen] (survey) {Survey shape\\record covariance};
+\draw[arrow] (site)--(anchor);
+\draw[arrow] (anchor)--(deploy);
+\draw[arrow] (deploy)--(connect);
+\draw[arrow] (connect)--(survey);
+\node[task,below=12mm of deploy,fill=palegold,text width=44mm] (recover)
+ {Detect failure, diagnose,\\retry or relocate};
+\draw[arrow] (connect.south) |- node[pos=.22,right,font=\scriptsize] {failed test} (recover.east);
+\draw[arrow] (recover.west) -| (anchor.south);
+\node[below=12mm of survey,align=center,font=\small,text width=30mm] (record)
+ {Verified station\\+ calibration state};
+\draw[arrow] (survey)--(record);
+\end{tikzpicture}
+\caption{Proposed installation and verification sequence. Contact-aware
+control and passive fixtures support each physical operation. A failed
+continuity test triggers diagnosis and recovery, by either a retry or a
+relocation. The survey returns the feed pose and radiator shape with their
+uncertainties. Ground trials will measure task completion, recovery time and
+final electrical validity.}
+\label{fig:deployment}
+\end{figure}

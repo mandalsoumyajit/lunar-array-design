@@ -1,0 +1,284 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "frequency_mhz": 1,
+      "recovered_flux_jy": 999.9999999999998,
+      "covariance_positive": true,
+      "response_validation_sha256": "07bcb26bf89c71b3e3561849a41a69babc213ca28f9b42c435c4b8b328a87ce1"
+    },
+    {
+      "frequency_mhz": 5,
+      "recovered_flux_jy": 999.9999999999999,
+      "covariance_positive": true,
+      "response_validation_sha256": "a1687bf3f1f90f6e45fb2882d87cdbf3f5b9808e6bddebbad5b7ae2c59ae1047"
+    },
+    {
+      "frequency_mhz": 10,
+      "recovered_flux_jy": 1000.0000000000001,
+      "covariance_positive": true,
+      "response_validation_sha256": "745448258c1b278d3f6353969777fbaa3bafd336fdb9a1ff8b15fbd2d743bd9d"
+    },
+    {
+      "frequency_mhz": 15,
+      "recovered_flux_jy": 1000.0,
+      "covariance_positive": true,
+      "response_validation_sha256": "f0bb473f93bc9a527df058b9a43231d6f96edd35bb21e4b0e2d2ac641dba9f4b"
+    },
+    {
+      "frequency_mhz": 20,
+      "recovered_flux_jy": 999.9999999999999,
+      "covariance_positive": true,
+      "response_validation_sha256": "ca2f9062da0d4c1b453281806d32e1dee385bec47aea05fdab963dc2cd702415"
+    },
+    {
+      "frequency_mhz": 25,
+      "recovered_flux_jy": 999.9999999999999,
+      "covariance_positive": true,
+      "response_validation_sha256": "cb96b4b51e3fddf45248d11aff12cda1b2648b13bf147cb0e3505f29c157a308"
+    },
+    {
+      "frequency_mhz": 30,
+      "recovered_flux_jy": 1000.0,
+      "covariance_positive": true,
+      "response_validation_sha256": "82d0edb6d47ad84132b8d04c4de473f45799e96c2bd6f1ddc1015fc47512da27"
+    },
+    {
+      "frequency_mhz": 40,
+      "recovered_flux_jy": 1000.0000000000001,
+      "covariance_positive": true,
+      "response_validation_sha256": "1f06ed118e1f4d74cdeb17dc866ac076ea10de34058fd443b5da877d9fdd101d"
+    },
+    {
+      "frequency_mhz": 50,
+      "recovered_flux_jy": 999.9999999999998,
+      "covariance_positive": true,
+      "response_validation_sha256": "4b1b919dabad33b6deb945247fcc6475189fff9c335057c1433c664fb37d5e90"
+    }
+  ],
+  "historical_gate_rejects": true,
+  "new_gate_rejects_historical_candidate": true,
+  "receiver_screen": [
+    {
+      "frequency_mhz": 1,
+      "port": 0,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": -2.2843493940118957
+    },
+    {
+      "frequency_mhz": 1,
+      "port": 0,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": -6.247125922737494
+    },
+    {
+      "frequency_mhz": 1,
+      "port": 2,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": -4.60921582188999
+    },
+    {
+      "frequency_mhz": 1,
+      "port": 2,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": -10.756505258643752
+    },
+    {
+      "frequency_mhz": 5,
+      "port": 0,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": -1.8198102916234074
+    },
+    {
+      "frequency_mhz": 5,
+      "port": 0,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": -5.181244632982079
+    },
+    {
+      "frequency_mhz": 5,
+      "port": 2,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": -4.474246455419396
+    },
+    {
+      "frequency_mhz": 5,
+      "port": 2,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": -10.522669655309818
+    },
+    {
+      "frequency_mhz": 10,
+      "port": 0,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": 0.35563352344517657
+    },
+    {
+      "frequency_mhz": 10,
+      "port": 0,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": 1.1703438644470916
+    },
+    {
+      "frequency_mhz": 10,
+      "port": 2,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": -4.034603163011042
+    },
+    {
+      "frequency_mhz": 10,
+      "port": 2,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": -9.740789601924684
+    },
+    {
+      "frequency_mhz": 15,
+      "port": 0,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": 4.401640243663335
+    },
+    {
+      "frequency_mhz": 15,
+      "port": 0,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": -9.223801389703166
+    },
+    {
+      "frequency_mhz": 15,
+      "port": 2,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": -3.189212167445798
+    },
+    {
+      "frequency_mhz": 15,
+      "port": 2,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": -8.143328748565516
+    },
+    {
+      "frequency_mhz": 20,
+      "port": 0,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": -10.952173482750878
+    },
+    {
+      "frequency_mhz": 20,
+      "port": 0,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": -20.303060020717666
+    },
+    {
+      "frequency_mhz": 20,
+      "port": 2,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": -1.7544479341505541
+    },
+    {
+      "frequency_mhz": 20,
+      "port": 2,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": -5.071602466214666
+    },
+    {
+      "frequency_mhz": 25,
+      "port": 0,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": -5.408105582812517
+    },
+    {
+      "frequency_mhz": 25,
+      "port": 0,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": -12.142862413335493
+    },
+    {
+      "frequency_mhz": 25,
+      "port": 2,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": 0.9027101621417277
+    },
+    {
+      "frequency_mhz": 25,
+      "port": 2,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": 1.953168306558125
+    },
+    {
+      "frequency_mhz": 30,
+      "port": 0,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": 0.9713673508026076
+    },
+    {
+      "frequency_mhz": 30,
+      "port": 0,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": 0.3505008331321758
+    },
+    {
+      "frequency_mhz": 30,
+      "port": 2,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": 6.339352680695823
+    },
+    {
+      "frequency_mhz": 30,
+      "port": 2,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": -4.470030598692509
+    },
+    {
+      "frequency_mhz": 40,
+      "port": 0,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": -13.435799634833357
+    },
+    {
+      "frequency_mhz": 40,
+      "port": 0,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": -23.219787209047592
+    },
+    {
+      "frequency_mhz": 40,
+      "port": 2,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": -9.603832089509048
+    },
+    {
+      "frequency_mhz": 40,
+      "port": 2,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": -21.815951997656263
+    },
+    {
+      "frequency_mhz": 50,
+      "port": 0,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": 1.3990845092874373
+    },
+    {
+      "frequency_mhz": 50,
+      "port": 0,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": -4.108472627826103
+    },
+    {
+      "frequency_mhz": 50,
+      "port": 2,
+      "capacitance_pf": 10,
+      "voltage_transfer_db": -17.474526214964875
+    },
+    {
+      "frequency_mhz": 50,
+      "port": 2,
+      "capacitance_pf": 35,
+      "voltage_transfer_db": -27.67913425603474
+    }
+  ],
+  "code_sha256": {
+    "validate_physical_bridge.py": "083d2e7f171f2e20c9f60ee95fc31df4d708d11e2dc27cb1b3dfc6e26f31980d",
+    "response_bridge.py": "95c7b92429dfba8e50fab54113338ede9bc9ad92ca04ba04cac243af1ef6e349"
+  },
+  "scope": "Noiseless discrete-source interface and noise-covariance check; not an imaging/sensitivity forecast."
+}

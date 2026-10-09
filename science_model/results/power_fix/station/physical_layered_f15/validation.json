@@ -1,0 +1,85 @@
+{
+  "frequency_hz": 15000000.0,
+  "layered": true,
+  "lossy": false,
+  "order": 32,
+  "nphi": 96,
+  "field_order": 48,
+  "mesh_scale": 1,
+  "power_eigenvalues": [
+    0.9999943161525334,
+    0.9999943161525411,
+    1.0000008413049961,
+    1.0000008413050043
+  ],
+  "worst_power_error": 5.683847466575465e-06,
+  "lower_farfield_vs_surface_flux_relative_error": 1.3677323059582349e-05,
+  "reciprocity_relative_error": 3.968015795838125e-17,
+  "minimum_resistance_eigenvalue_ohm": 25.554270573443464,
+  "minimum_surface_flux_eigenvalue_ohm": 16.538148254831093,
+  "passed_power_closure": true,
+  "model": "PEC strips; ideal balanced finite-gap impressed feed currents; planar 1 m layer; no cables/supports",
+  "validated_for_science": false,
+  "provenance": {
+    "science_model\\physical_station_solver.py": "ebba8671b223b0cbb897c459d3c7d0f94c23ce9ec58eab8332df35097bc96df2",
+    "science_model\\physical_halfspace_fields.py": "42010b8793595f8ddadb6549c50dd24bc13c835a2f2bdd6764055c47add75d89",
+    "science_model\\results\\power_fix\\station\\physical_reference_f15_mesh1\\solve_manifest.json": "889d7aa142b18bb1de5c1908cc8b70f5f91c91528ea74d6d8c8e4f4883ea26d3",
+    "science_model\\results\\power_fix\\station\\physical_reference_f15_mesh1\\ZMatrix.m": "4df07695832c71c80013079f1ee84ea34ab20cb1859cb7a647802b7f274ce729",
+    "science_model\\results\\power_fix\\station\\physical_reference_f15_mesh1\\Basis.m": "3e79e5dd8c7148abcb1dbb2c7b71322eb4ba1de5104dbf6aa076a9877af0d6b2",
+    "science_model\\results\\power_fix\\station\\physical_reference_f15_mesh1\\BasisSections.log": "6f3daf59b54bbbab74071128d82ae8a997ab2eedfab4029b29403dd47ea5ae4f",
+    "science_model\\results\\power_fix\\station\\physical_reference_f15_mesh1\\proj.msh": "2a32dffa3a6f309542e7964fd6f5ffc27dfb7261a8e46fafcb099befae016c1b"
+  },
+  "z_real": [
+    [
+      626.4192380835091,
+      2.9194086011001526e-14,
+      33.07801218826975,
+      5.265138251706094e-16
+    ],
+    [
+      2.6673911836975322e-14,
+      626.4192461707918,
+      5.039772072267749e-15,
+      33.0780124195644
+    ],
+    [
+      33.078012188269746,
+      4.9079143067446485e-15,
+      27.375236929430894,
+      8.418870366832679e-16
+    ],
+    [
+      6.842537786460411e-16,
+      33.07801241956443,
+      8.595934879356374e-16,
+      27.375236945651636
+    ]
+  ],
+  "z_imag": [
+    [
+      919.5248783326,
+      1.9346314774239678e-13,
+      -44.08926121000241,
+      9.380198175865024e-15
+    ],
+    [
+      2.049998369928619e-13,
+      919.5248703178961,
+      -1.3704364748619739e-14,
+      -44.08926157217294
+    ],
+    [
+      -44.08926121000238,
+      -1.4160575167966388e-14,
+      -472.0529706411667,
+      3.6160091055406994e-13
+    ],
+    [
+      9.085831837027858e-15,
+      -44.089261572172944,
+      3.6168937919163207e-13,
+      -472.0529707670054
+    ]
+  ],
+  "solution_sha256": "427f1a3ea516a0ce1f357be002d98f59d365722d8c91aea0ddb00ec95d11bfcf"
+}

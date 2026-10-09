@@ -1,0 +1,36 @@
+{
+  "isolated_controls_pass": true,
+  "isolated_control_count": 14,
+  "maximum_control_power_error": 0.001656429264800141,
+  "maximum_control_upper_field_error": 0.00021501445269034075,
+  "incomplete_database_rejected": true,
+  "original_files_unchanged": 10,
+  "station_checks": {
+    "lossless_f25": {
+      "passed": false,
+      "validated_for_science": false,
+      "maximum_absolute_upper_field_relative_error": 0.0005259566524395989
+    },
+    "lossless_f25_vacuum_noportsolver": {
+      "passed": false,
+      "validated_for_science": false,
+      "maximum_absolute_upper_field_relative_error": 0.0006554272571089371
+    },
+    "nominal_f25": {
+      "passed": false,
+      "validated_for_science": false,
+      "maximum_absolute_upper_field_relative_error": 0.000545616251697532
+    }
+  },
+  "source_sha256": {
+    "momentum_safe.py": "0c61a99f0497b14ef6f0302049754929f1822039f84fbdbe2dc9c61e32ebe3f0",
+    "physical_halfspace_fields.py": "42010b8793595f8ddadb6549c50dd24bc13c835a2f2bdd6764055c47add75d89",
+    "correct_station_response.py": "2d9fcffbb86c4b08f412ce2ffd9581face94b33f8eb004845f80a776920e2e13",
+    "validate_power_fix.py": "e7cd76bfdbdb06246725204fd4d7c776fc6c00cef22f2ecf9609bb842cae6def",
+    "diagnose_terminal_power.py": "8ff8f1f61952f7334d48e9e19e88bd36aafb27406e996303aaae0263200f25a8",
+    "check_scale_invariance.py": "cf5f55af1b5f465783ceeba75f198b995487b46e2b84a9e604c68277abfbbc10",
+    "plot_revision_evidence.py": "7dd7906dbdeec2ce6cc324d1801a5250df6326b22643d9130f8919c630a54504",
+    "audit_power_fix.py": "97de14de481d440c32d8191a9d1695ec9b230eb54a46397359053041fccfb18b"
+  },
+  "scope": "Correction audit passes; station physical validation does not pass."
+}

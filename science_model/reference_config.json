@@ -1,0 +1,16 @@
+{
+  "status": "Illustrative capability calculations, not a selected flight array or EM-derived sensitivity forecast",
+  "frequencies_mhz": [10, 20, 30, 50, 75, 125],
+  "node_counts": [16, 128, 1024],
+  "reference_directivity": 1.5,
+  "radiation_efficiency": 0.8,
+  "receiver_temperature_k": 300,
+  "regolith_temperature_k": 100,
+  "sky_temperature_at_20mhz_k": 50000,
+  "sky_spectral_index": -2.5,
+  "channel_bandwidth_hz": 100000,
+  "valid_integration_s": 3600,
+  "independent_polarizations": 2,
+  "cosmology": {"H0_km_s_mpc": 67.4, "omega_m": 0.315, "omega_r": 0.000092},
+  "random_seed": 20261008
+}

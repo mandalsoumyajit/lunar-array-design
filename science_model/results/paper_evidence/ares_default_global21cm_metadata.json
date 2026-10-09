@@ -1,0 +1,21 @@
+{
+  "model": "ARES default Global21cm",
+  "paper": "Mirocha (2014)",
+  "doi": "10.1093/mnras/stu1193",
+  "ares_repository": "https://github.com/mirochaj/ares",
+  "ares_revision": "fd77c4a86982d25fdad790d717f8bf5eecff4eb8",
+  "cosmology_bundle": "cosmology:planck2015",
+  "pop_sed_degrade_angstrom": 100,
+  "samples": 2588,
+  "frequency_min_mhz": 0.47331081365211597,
+  "frequency_max_mhz": 236.625561321224,
+  "redshift_min": 5.002757030301432,
+  "redshift_max": 3000.0,
+  "delta_tb_min_mk": -128.98919522319534,
+  "delta_tb_max_mk": 15.620863908572257,
+  "trough_frequency_mhz": 67.58129440890484,
+  "trough_delta_tb_mk": -128.98919522319534,
+  "emission_peak_frequency_mhz": 117.78887130983718,
+  "emission_peak_delta_tb_mk": 15.620863908572257,
+  "delta_tb_at_100_mhz": 8.155240750753622
+}

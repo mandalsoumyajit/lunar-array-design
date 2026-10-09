@@ -1,0 +1,140 @@
+{
+  "study_type": "Controlled dual-channel station-spectrum retrieval proxy; not a full interferometric or direction-dependent sky forecast.",
+  "frequency_range_mhz": [
+    15.0,
+    25.0
+  ],
+  "frequency_spacing_mhz": 0.1,
+  "ads_anchor_frequencies_mhz": [
+    15.0,
+    20.0,
+    25.0
+  ],
+  "profiles": [
+    "nominal",
+    "high_density",
+    "shallow_interface",
+    "high_loss",
+    "rock_rich_stress"
+  ],
+  "signal": {
+    "shape": "Gaussian absorption",
+    "center_mhz": 20.0,
+    "sigma_mhz": 1.5,
+    "amplitude_mk": 40.0
+  },
+  "radiometer": {
+    "integration_hours": 1000.0,
+    "channel_khz": 100.0,
+    "receiver_temperature_k": 300.0
+  },
+  "foreground": {
+    "model": "per-channel four-term log-frequency basis about a -2.5 power law",
+    "coefficients_k": [
+      [
+        55000.0,
+        -2750.0,
+        1100.0,
+        -350.0
+      ],
+      [
+        52000.0,
+        -1560.0,
+        1300.0,
+        -260.0
+      ]
+    ],
+    "model_mismatch_in_injection": false
+  },
+  "science_response_mode_variance_fraction": [
+    0.9691963115515217,
+    0.028991911160129388,
+    0.0017331851171482158,
+    7.859217120069305e-05
+  ],
+  "three_mode_cumulative_response_variance_fraction": 0.9999214078287993,
+  "mode_score_standard_deviations": [
+    0.1546051408222225,
+    0.037787845744581286,
+    0.008833705103071729
+  ],
+  "profile_retrievals": {
+    "no_regolith_modes": {
+      "maximum_absolute_profile_bias_mk": 18682.928903798533,
+      "maximum_absolute_profile_bias_over_sigma": 485.99066139953464,
+      "posterior_sigma_mk": 38.4429792333792
+    },
+    "three_modes_free": {
+      "maximum_absolute_profile_bias_mk": 2.7189853508068977,
+      "maximum_absolute_profile_bias_over_sigma": 0.03946606972564594,
+      "posterior_sigma_mk": 68.89425194118176
+    },
+    "three_modes_ensemble_prior": {
+      "maximum_absolute_profile_bias_mk": 2.6658842614045857,
+      "maximum_absolute_profile_bias_over_sigma": 0.03984412034282385,
+      "posterior_sigma_mk": 66.90784583690092
+    },
+    "two_modes_free": {
+      "maximum_absolute_profile_bias_mk": 2.2458987209701133,
+      "maximum_absolute_profile_bias_over_sigma": 0.03356481925941551,
+      "posterior_sigma_mk": 66.91228406779219
+    }
+  },
+  "leave_one_profile_out": {
+    "maximum_absolute_bias_mk_free": 1.9582184790038413,
+    "maximum_absolute_bias_mk_prior": 12.172974983161058,
+    "maximum_anchor_reconstruction_rms_fraction": 0.0064003322768362144
+  },
+  "monte_carlo": {
+    "no_regolith_modes": {
+      "bias_mean_mk": 89.50978343308546,
+      "bias_rms_mk": 11491.14762136892,
+      "bias_p05_mk": -19141.61991328289,
+      "bias_p50_mk": 423.28777063130894,
+      "bias_p95_mk": 19018.27889811356,
+      "posterior_sigma_mk": 38.4429792333792,
+      "total_rmse_with_noise_mk": 11491.211925586655
+    },
+    "two_modes_free": {
+      "bias_mean_mk": -0.015090386391127957,
+      "bias_rms_mk": 0.6867598198619391,
+      "bias_p05_mk": -1.1471126242395688,
+      "bias_p50_mk": 0.01123478293022645,
+      "bias_p95_mk": 1.0898442268821287,
+      "posterior_sigma_mk": 66.91228406779219,
+      "total_rmse_with_noise_mk": 66.91580828338766
+    },
+    "three_modes_free": {
+      "bias_mean_mk": -0.004834486095677467,
+      "bias_rms_mk": 1.02417927595997,
+      "bias_p05_mk": -1.6544713152733865,
+      "bias_p50_mk": -0.03266256983667365,
+      "bias_p95_mk": 1.7131194177588032,
+      "posterior_sigma_mk": 68.89425194118176,
+      "total_rmse_with_noise_mk": 68.90186422531929
+    },
+    "three_modes_ensemble_prior": {
+      "bias_mean_mk": 0.009736336488404352,
+      "bias_rms_mk": 0.9387197261798247,
+      "bias_p05_mk": -1.5565722396178172,
+      "bias_p50_mk": -0.003273672594290844,
+      "bias_p95_mk": 1.5652594745299968,
+      "posterior_sigma_mk": 66.90784583690092,
+      "total_rmse_with_noise_mk": 66.91443065033744
+    }
+  },
+  "limitations": [
+    "The ADS response is sampled at only 15, 20, and 25 MHz; quadratic interpolation cannot reveal sub-anchor chromatic structure.",
+    "The upper-hemisphere fraction is a scalar beam proxy, not a convolution of a complex Jones beam with an anisotropic sky.",
+    "The foreground family is exactly represented by the fitted foreground basis.",
+    "The five-profile ensemble is too small to establish population priors."
+  ],
+  "outputs": [
+    "regolith_science_modes.csv",
+    "retrieval_profile_results.csv",
+    "retrieval_leave_one_out_results.csv",
+    "retrieval_monte_carlo_summary.csv",
+    "regolith_retrieval_summary.png",
+    "regolith_retrieval_summary.pdf"
+  ]
+}

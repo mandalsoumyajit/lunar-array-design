@@ -1,0 +1,34 @@
+{
+  "status": "Illustrative capability calculations, not a selected flight array or EM-derived sensitivity forecast",
+  "config_sha256": "7b9bc282017f35f970d26524a504abf4ecfaf030ae0f9975f3e3f305c298b907",
+  "numpy_version": "2.2.3",
+  "checks": {
+    "hermiticity_positivity_translation_common_clock": "passed",
+    "stokes_normalization": "passed",
+    "constant_delay_phase_without_decorrelation": "passed",
+    "single_direction_geometry_clock_degeneracy": "passed",
+    "gaussian_jitter_coherence": {
+      "numerical": 0.9992286016571936,
+      "analytic": 0.9992292343487298
+    },
+    "radiometer_and_correlated_sky_noise": "passed"
+  },
+  "timing_125mhz": {
+    "fifty_ps_coherence_loss_percent": 0.0770765651270211,
+    "one_cm_phase_deg": 1.5010384283916842,
+    "one_cm_delay_ps": 33.35640951981521
+  },
+  "raw_transport_example": {
+    "sample_rate_msps": 300,
+    "bits_per_sample": 8,
+    "two_receptors_gbps": 4.8,
+    "four_receptors_gbps": 9.6
+  },
+  "limitations": [
+    "Ideal reference collecting area, not loaded EM response.",
+    "Point-source sensitivity assumes independent weak-source noise, natural weights, and two usable polarizations.",
+    "No confusion, scattering, foreground-calibration floor, RFI, mutual coupling, or site visibility loss in scalar sensitivity.",
+    "Layout baseline counts are zenith snapshot geometric counts, not uv dwell time or independent cosmological modes.",
+    "Point-source RIME and covariance implemented; diffuse sky, channelizer and end-to-end science estimators remain future extensions."
+  ]
+}

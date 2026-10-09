@@ -1,0 +1,17 @@
+{
+  "diagnosis_verification_passed": true,
+  "new_scripts_sha256": {
+    "station_power_experiments.py": "54f6269af356172d9b36395c7805ec3a4e3d7b29c7d18b92c58555ecb57c3d25",
+    "diagnose_interplane_kernel.py": "f2d684885f07497eee01aa42af679a2e46eaa187afcc4b6d8dc253e03c2000db",
+    "verify_interplane_phase.py": "08e1b311b9c754812e81db9130b27bab64301eb19f2a6d4c70bd60691272de9d"
+  },
+  "pdf_sha256": "d65153711646738055dd8c28c9ad4ac0c62a6df0538c8cc40857639c9d5feadd",
+  "pdf_pages": 8,
+  "visually_checked_changed_pages": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "station_validated_for_science": false
+}

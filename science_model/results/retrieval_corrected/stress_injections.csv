@@ -1,0 +1,7 @@
+case,injected_amplitude_mk,fitted_amplitude_mk,amplitude_difference_mk,sigma_mk,rank,residual_rms_mk,interpretation
+null,0.0,-2.0864759527354002e-07,-2.0864759527354002e-07,68.89425194118176,12,0.0007957263017963295,"Exact training family, no signal"
+matched_40mK,40.0,39.999999791906326,-2.0809367423657577e-07,68.89425194118176,12,0.00043104842206709114,Exact training family
+foreground_fourth_order,40.0,41.06190641881558,1.061906418815581,68.89425194118176,12,0.06279384593338665,Unmodeled smooth term with 0.1 K maximum amplitude in each channel
+foreground_ripple,40.0,100.36301451978183,60.36301451978183,68.89425194118176,12,67.85692198546438,"Unmodeled 0.1 K sinusoid, period 2 MHz, identical in both channels"
+inter_anchor_response,40.0,258.0409843743248,218.0409843743248,68.89425194118176,12,19.78664146892818,"Fractional response 1e-5 sin(pi*(nu-15)/5), zero at all three EM anchors"
+shifted_signal,40.0,36.00472454601587,-3.9952754539841275,68.89425194118176,12,3.349216898083233,"True trough at 21 MHz fitted with fixed 20 MHz template; shape mismatch, not like-for-like amplitude"

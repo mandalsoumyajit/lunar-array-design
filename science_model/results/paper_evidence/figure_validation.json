@@ -1,0 +1,34 @@
+{
+  "status": "Final seven data figures; two additional figures are native TikZ diagrams",
+  "drivers": [
+    "science_model\\fso_exact_capture.py",
+    "science_model\\plot_paper_results.py",
+    "science_model\\summarize_high_band.py",
+    "science_model\\paper_design_decisions.py",
+    "science_model\\causal_timing_check.py"
+  ],
+  "inputs_sha256": {
+    "science_model\\build_paper_figures.py": "669738fb9c3f7051e8cd0750da52a2e8ed83f95506dab0caf33aed990fdb5c78",
+    "science_model\\fso_exact_capture.py": "d9e260d80f3c0f4b3d360c1f75257df67ca84e8a6b166e0103bf3d4cad60fa24",
+    "science_model\\plot_paper_results.py": "965a89e9fb11d92e1c6e2dcf44218e952bc82320ccd51e1d8f2f362b4753bc84",
+    "science_model\\summarize_high_band.py": "29c0097e85b756b8ff8590b24d82aacb91b8775e1dc901d3a426b09e7719b6e9",
+    "science_model\\paper_design_decisions.py": "c9fe3618eafd3ad508b5dd4a022724442a7cea82363be9e587ede13cd0329063",
+    "science_model\\causal_timing_check.py": "7a44615c352afcfcd049a5a619b67b9ff6d6c928472680bfa19b00ce5caf369f",
+    "science_model\\results\\paper_evidence\\base_figure_validation.json": "22926146682c31e3c7e5e7687267df35f711a8bbe88441e3886ea6f47c4b776e",
+    "science_model\\results\\high_band_validation\\validation.json": "7c4efa1fec365d3d0f8b8edaed18eef5ea99caa639d115e9aa66d7f82faf59e0",
+    "science_model\\results\\design_decisions\\validation.json": "766ac145e05380373b11db121d44be3507853a48fefd6610b08578d34c94218d",
+    "science_model\\results\\design_decisions\\causal_timing_validation.json": "d5a5417db2f0f005912baa97fc3ef9f47ac3f2b39d2a771f1fd16f805e3a6835",
+    "figures\\station_architecture.tex": "a05f4808f6bb87f04739ca0fcd667a9983bd0aeef52ea74a007828c6ae2140e1",
+    "figures\\deployment_workflow.tex": "93183379386a72cd93a65c499df89b638ab81ffc8b8a736e4de6d175b53b8435"
+  },
+  "figures_sha256": {
+    "science_brightness": "8c445ffefafa9cbd1ecdcf2874734a878c713a6aaa531a633d63ca86ecd96c31",
+    "corrected_station_response": "8507b80f10d9a651ebaec7e98976813efc9f4110ac50b4839a28647131d0a394",
+    "timing_results": "b0db10892d1c49e8d9c7e6ae7a7baf167c10ac8119dfd0c2b461e22b79c58342",
+    "receiver_requirements": "f62547cb934209af6e0403eeba35b9c6994012b20f2b9cd2fb46e5fac6ca599b",
+    "high_band_validation": "2e6a86052c6ba355dce919ed59d8506d5e4ae34aa349205d254d0456a07407bd",
+    "array_layout_results": "945ebd1f56babc70d19375c9030e6ad468d45b7ce1fa3f9517db53cdc4d3d0e5",
+    "calibration_results": "9bcb5418db131c51ff35cd4a7b0a1f819dff1fbe00cbee8b2ed8184b409d7bbe"
+  },
+  "note": "Base bundle is intermediate. Final receiver/layout outputs and the high-band output are validated by their own retained study records."
+}
