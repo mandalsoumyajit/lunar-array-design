@@ -95,6 +95,8 @@ For publication, local path prefixes in the provenance records were replaced by 
 
 ## License
 
+Copyright (c) 2026, Brookhaven Science Associates, LLC.
+
 Code is released under the BSD 3-Clause License (`LICENSE`). Data, figures and documentation are released under CC BY 4.0 (`LICENSE-DATA`).
 
 ## Citation
