@@ -1,5 +1,7 @@
 # Lunar low-frequency array: design-trade models
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23270082.svg)](https://doi.org/10.5281/zenodo.23270082)
+
 Code and processed data for the paper
 
 > B. R. B. Saliwanchik, N. Chakraborty, J. C. Estrada Vigil, S. Herrmann, S. Mandal, L. Philip, A. Slosar, P. Stankus and E. Tamura, *A Deployable Lunar Low-Frequency Radio Array: Design Trades and a Ground-Test Strategy* (submitted to PASP).
